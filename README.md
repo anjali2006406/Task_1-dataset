@@ -1,6 +1,6 @@
 # Task_1-dataset
 Data Cleaning and Preprocessing
-Name of data set : Medical Appointment No Shows 
+- Name of data set : Medical Appointment No Shows 
 ## Data Cleaning Summary:
 
 - Checked for missing values using the COUNTBLANK function.
