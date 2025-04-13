@@ -33,7 +33,7 @@ Handled Missing Values
 
 - Used Flash fill and LEFT() formula
 
-###**Renamed Columns**
+### **Renamed Columns**
 
 - Change column headers to lowercase (LOWER()), and replace spaces with underscores(_) (e.g., PatientID → patientid).
 
