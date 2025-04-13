@@ -1,14 +1,43 @@
 # Task_1-dataset
 Data Cleaning and Preprocessing
-- Name of data set : Medical Appointment No Shows 
+- Name of data set : Medical Appointment No Shows
+
+ **Objective**
+ 
+**Clean and prepare a real-world dataset containing patient appointment records to make it ready for analysis and visualization.**
+  
 ## Data Cleaning Summary:
 
-- Checked for missing values using the COUNTBLANK function.
+---
 
-- Identified duplicate entries using Conditional Formatting.
+### **Cleaning Steps Performed**
 
-- Extracted dates using Flash Fill and the LEFT function.
+**Methode used in Excel:**
 
-- Standardized headers by applying the LOWER function and manually removing spaces.
+Handled Missing Values
 
-- Ensured appropriate data types by formatting numerical values as Number and text as General.
+-Use the filter feature on each column.
+-Identify blank cells in age, neighbourhood, or other columns.
+-Fill them if possible, or remove rows where data is critical.
+
+### **Removed Duplicates**
+
+-Select all columns (Ctrl + A).
+-Go to Data → Remove Duplicates.
+
+###**Standardized Text**
+
+-Use the LOWER() and UPPER() formulas in a new column for consistency.
+
+**Converted Date Columns (scheduledday, appointmentday)**
+
+-Used Flash fill and LEFT() formula
+
+###**Renamed Columns**
+
+-Change column headers to lowercase (LOWER()), and replace spaces with underscores(_) (e.g., PatientID → patientid).
+
+###**Filter Out Invalid Data**
+
+-Apply filters to the age column and remove rows with age < 0 or age > 150.
+
