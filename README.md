@@ -43,7 +43,7 @@ Handled Missing Values
 
   ---
 
-  **Author:**
+ ### **Author:**
 
 **Anjali Singh**
 
