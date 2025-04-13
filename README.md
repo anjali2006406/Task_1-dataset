@@ -25,7 +25,7 @@ Handled Missing Values
 - Select all columns (Ctrl + A).
 - Go to Data → Remove Duplicates.
 
-###**Standardized Text**
+### **Standardized Text**
 
 - Use the LOWER() and UPPER() formulas in a new column for consistency.
 
@@ -40,4 +40,14 @@ Handled Missing Values
 ### **Filter Out Invalid Data**
 
 - Apply filters to the age column and remove rows with age < 0 or age > 150.
+
+  ---
+
+  **Author:**
+
+**Anjali Singh**
+_Aspiring Business and Data Analyst_
+🔗 [LinkedIn] :-www.linkedin.com/in/anjalissingh
+
+---
 
